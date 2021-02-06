@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<title>Waste Management System </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+<body>
+<header style="height: 40px;background-attachment: fixed;background-color:greenyellow;"><h2>Waste Management System</h2></header>
+
+<div class="navbar">
+  <a class="active" href="https://bcatunepal.blogspot.com/"><i class="fa fa-fw fa-home"></i> Home</a> 
+  <a href="#"><i class="fa fa-fw fa-search"></i>  Search </a> 
+  <a href="contactus.html"><i class="fa fa-fw fa-envelope"></i>  Contact </a> 
+  <a href="#"><i class="fa fa-globe"></i>  Globe </a>
+  <a href="#"><i class="fa fa-trash"></i>  Trash </a> 
+  <a href="login.html"><i class="fa fa-fw fa-user"></i>  Login </a>
+</div>
+<div class="imgdiv"style="background-color:white">
+<img src="img\rec.jpg"id="first"style="display:inline;width:500px;height:100%;margin-left:20px;margin-top:15px">
+<img src="img\waste.jpg"id="second"style="display:inline;width:500px;height;100%;;margin-left:200px;">
+</div>
+
+<div id="user-detail">
+  <form>
+    <caption style="background-color: green;height: 30px;"><Strong>Please fill up your info for convience</Strong></caption><br><br>
+    <label> Name : </label>
+    <input type="text" name="name"placeholder="Enter your name"><br><br>
+    <label> Phone/Mobile :</label>
+    <input type="number" name="mobile" placeholder = "Enter your mobile num.."><br><br>
+    <label>Gender : </label>
+    <input type="radio" name="gender"value="male">male
+    <input type="radio" name="gender"value="female">female
+    <input type="radio" name="gender" value="other">Other<br><br>
+    <label>Email:</label>
+    <input type="email" name="email"placeholder="Enter your email"required><br><br>
+    <label>Garbage Type :</label>
+    <input type="checkbox" name="type" value="plastic">plastic
+    <input type="checkbox" name="type" value="organic">organic-waste 
+    <input type="checkbox" name="type" value="Household ">Household-waste
+    <input type="checkbox" name="type" value="mixed">Mixed waste<br><br>
+
+    <label>Location :</label>
+<select>
+    <option>Sabjimandi</option>
+    <option>janaki Tol</option>
+    <option>bhasi</option>
+    <option>Bhagatpur</option>
+</select><br><br>
+<label>Location Description: </label>
+<input type="text" name="description"><br><br>
+<input type="file"name ="file"><br><br>
+<input type="submit" name="button ">
+</form>
+</div>
+ <script crossorigin src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js" integrity="sha512-kp7YHLxuJDJcOzStgd6vtpxr4ZU9kjn77e6dBsivSz+pUuAuMlE2UTdKB7jjsWT84qbS8kdCWHPETnP/ctrFsA==" crossorigin></script>
+<script type="text/babel" src="index.js"></script>
+</body>
+<footer class="copyright"> &copy 2020 Designed by Janak Bista<a href="#"style="color:blue;"><i class="fa fa-twitter"></i></a> & Image Kunwar<a href="#"><i class="fa fa-facebook"style="color:blue;"></i></a></footer>
+</html> 
