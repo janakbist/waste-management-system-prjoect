@@ -1,73 +1,59 @@
 <!DOCTYPE html>
 <html>
-<title>Waste Management System </title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="style.css">
-<body>
-<header style="height: 40px;background-attachment: fixed;background-color:greenyellow;"><h2>Waste Management System</h2></header>
+  <head>
+    <title>Waste Management System </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- awesome fonts links for home,aboutus,contact etc. -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- Awesome fonts links for chat starts -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- awesome fonts link for chat ends -->
+  </head>
+  <body>
 
-<div class="navbar">
-  <a class="active" href="https://bcatunepal.blogspot.com/"><i class="fa fa-fw fa-home"></i> Home</a> 
-  <a href="#"><i class="fa fa-fw fa-search"></i>  Search </a> 
-  <a href="#"><i class="fa fa-fw fa-envelope"></i>  Contact </a> 
-  <a href="#"><i class="fa fa-globe"></i>  Globe </a>
-  <a href="#"><i class="fa fa-trash"></i>  Trash </a> 
-  <a href="#"><i class="fa fa-fw fa-user"></i>  Login </a>
-</div>
-<div class="imgdiv"style="background-color:white">
-<img src="rec.jpg"id="first"style="display:inline;width:500px;height:100%;margin-left:20px;margin-top:15px">
-<img src="waste.jpg"id="second"style="display:inline;width:500px;height;100%;;margin-left:200px;">
-</div>
+    <!-- project heading Bar start-->
+    <header style="height: 40px;background-attachment: fixed;background-color:greenyellow;"><h2>Waste Management System</h2></header>
+    <!-- project heading bar end -->
 
-<div id="root" style="height:500px; color: black;background-color: white;">
-  <form>
-    <caption><b>User's Details</b></caption><br><br>
-    <label> Name : </label>
-    <input type="text" name="name"placeholder="Enter your name"><br><br>
-    <label> Phone/Mobile :</label>
-    <input type="number" name="mobile" placeholder = "Enter your mobile num.."><br><br>
-    <label>Gender : </label>
-    <input type="radio" name="gender"value="male">male
-    <input type="radio" name="gender"value="female">female
-    <input type="radio" name="gender" value="other">Other<br><br>
-    <label>Email:</label>
-    <input type="email" name="email"placeholder="Enter your email"required><br><br>
-    <label>Garbage Type :</label>
-    <input type="checkbox" name="type" value="plastic">plastic
-    <input type="checkbox" name="type" value="organic">organic-waste 
-    <input type="checkbox" name="type" value="Household ">Household-waste
-    <input type="checkbox" name="type" value="mixed">Mixed waste<br><br>
+    <!-- Navigation Bar section start  -->
+    <div class="navbar">
+      <a class="active" href="https://bcatunepal.blogspot.com/"><i class="fa fa-fw fa-home"></i> Home</a> 
+      <a href="search.html"><i class="fa fa-fw fa-search"></i>  search </a> 
+      <a href="phpGmailSMTP/contact.php"><i class="fa fa-fw fa-envelope"></i>  Contact </a> 
+      <a href="#"><i class="fa fa-globe"></i>  Globe </a>
+      <a href="trash.html"><i class="fa fa-trash"></i> Report Trash </a> 
+      <a href="login.html"><i class="fa fa-fw fa-user"></i>  Login </a>
+      <a href="chatme.html"><i class="fab fa-facebook-messenger" aria-hidden="true">Chat-Me</i></a>
+    </div>
+     <!-- Navigation Bar section ends  -->
 
-    <label>Location :</label>
-<select>
-    <option>Sabjimandi</option>
-    <option>janaki Tol</option>
-    <option>bhasi</option>
-    <option>Bhagatpur</option>
-</select><br><br>
-<label>Location Description</label>
-<input type="text" name="description"><br><br>
-<input type="file"name ="file"><br><br>
-<input type="submit" name="button ">
-</form>
-</div>
-<div class="login-form" style="height: 50vh; width: 29vh;background-color: aliceblue;justify-content: center;text-align: center;margin-left: 50%;">
-  <form>
-      <div style="margin-top: 20px;justify-content: center;text-align: center;">
-     <input type="email/number" name="email"placeholder="Email/phone"required><br><br>
-     <input type="password"name="password"placeholder="password"required><br><br>
-     <button>login</button>
-  </div>
-  </form>
-</div>
-<div class="footer"style="height:100px;background-color: green">
+     <!-- Front page Images of website start -->
+    <div class="imgdiv"style="background-color: white;height:450px;width: 100% ;color:red;>
+      <article align="justify">
+    <img src="img\waste1.jpg" vspace='50px' hspace='20px' align ='left' style="height: 439px;width: 439px;margin-left: 5px;margin-top: 5px;border-radius: 50%;"> <br><p style="color: #2fbfbc;"><h1 >Title</h1><br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum,<br> sapiente aliquid similique dignissimos ipsam id nisi velit non quidem, doloremque consequatur, odio ut ducimus placeat<br> perferendis minus sit unde nesciunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, asperiores repudiandae<br> fuga deleniti magnam exercitationem, ullam corrupti commodi iure aspernatur, dicta laboriosam obcaecati dolorum. Odit<br> praesentium nam quasi porro sequi. Lorem ipsum dolor sit amet consectetur adipisicing elit. In fugit alias quaerat.<br> Sunt nisi cum itaque in, dolore animi dolorem, eum quas quaerat earum, velit mollitia porro. Laudantium, veritatis autem?Lorem<br> ipsum dolor sit, amet consectetur adipisicing elit. Beatae quaerat, cumque, numquam quidem adipisci veniam expedita vero <br>repellendus rem totam dicta cupiditate. Facere, vel. Perferendis reprehenderit quam fugit impedit doloribus? Lorem <br>ipsum dolor sit amet consectetur adipisicing elit. Optio ad illo tempore? Beatae a expedita eligendi. Aliquid modi iure velit,<br> dolorum, ab, nemo repellat eligendi exercitationem sint provident placeat facilis! Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Impedit quis ex blanditiis aut laboriosam, ullam reiciendis iure ut adipisci, perferendis, ipsa <br>distinctio est consectetur. Harum doloribus sunt unde suscipit facilis.
+    </p>
+  </article>
+    <!-- <img src="img\rec.jpg"id="first"style="align:left;vspace:200px;hspaxe:20px">
+    <article align ="justify"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus sed, reiciendis provident expedita, perspiciatis a minima distinctio laudantium quos exercitationem, totam ab animi atque autem praesentium. Voluptatibus velit vero eum.</article> -->
+    </div>
+    <!-- Front page Images of website ends -->
 
-</div>
-<article class="copyright">&copy2020 Designed by <a>Janak Bista<a href="#"style="color:blue;"><i class="fa fa-twitter"></i></a> & Image Kunwar<a href="#"><i class="fa fa-facebook"></i></a></article>
+    <!-- js link references and library references  starts-->
  <script crossorigin src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
-<script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js" integrity="sha512-kp7YHLxuJDJcOzStgd6vtpxr4ZU9kjn77e6dBsivSz+pUuAuMlE2UTdKB7jjsWT84qbS8kdCWHPETnP/ctrFsA==" crossorigin></script>
-<script type="text/babel" src="index.js"></script>
-</body>
-</html> 
+ <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js" integrity="sha512-kp7YHLxuJDJcOzStgd6vtpxr4ZU9kjn77e6dBsivSz+pUuAuMlE2UTdKB7jjsWT84qbS8kdCWHPETnP/ctrFsA==" crossorigin></script>
+ <script type="text/babel" src="index.js"></script> 
+    <!-- js link references and library references ends-->
+
+  </body>
+
+  <!-- footer section of the website start-->
+  <footer class="copyright"> &copy 2020 Designed by Janak Bista
+    <a href="#"style="color:blue;"><i class="fa fa-twitter"></i></a>
+     & Image Kunwar<a href="#"><i class="fa fa-facebook"style="color:blue;"></i></a></footer>
+  <!-- footer section of the website ends-->
+
+  </html>
+
+
