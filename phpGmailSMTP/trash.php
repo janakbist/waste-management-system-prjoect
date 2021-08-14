@@ -90,7 +90,7 @@ if(isset($_POST['submit'])){
      $mail->Port= '587';
      $mail->isHTML(true);
      $mail->Username='janak.bista@sagarmatha.edu.np';
-     $mail->Password='jackson2612';
+     $mail->Password='your email passsword';
      $mail->SetFrom('no-reply@howcode.org');     
      $mail->Subject='Hello sir!';
      $mail->Body=$html;     
