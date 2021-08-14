@@ -21,7 +21,7 @@ if(isset($_POST['submit'])){
      $mail->Port= '587';
      $mail->isHTML(true);
      $mail->Username='bistajanak303@gmail.com';
-     $mail->Password='janakbist@2612';
+     $mail->Password='your email password';
      $mail->SetFrom('no-reply@howcode.org');     
      $mail->Subject='Hello sir!';
      $mail->Body=$html;     
